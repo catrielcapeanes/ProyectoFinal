@@ -1,0 +1,21 @@
+:root{
+  --color-white: #fff;
+  --color-black: #000;
+  --color-background-gray:#141414;
+  --color-background-modal:#181818;
+  --color-hover: #7a7a7bb3;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'poppins';
+}
+
+body{
+  background-color: #141414;
+  color: white;
+}

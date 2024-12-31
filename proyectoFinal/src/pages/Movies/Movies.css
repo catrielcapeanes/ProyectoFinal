@@ -1,0 +1,17 @@
+.list-movies{
+    position: relative;
+}
+
+.list-movies h1{
+    padding-top:80px;
+    padding-left: 3%;
+    margin-bottom: 15px;
+  }
+
+@media (max-width:800px) {
+    .list-movies h1{
+        font-size: 20px;
+        padding-top:80px;
+        padding-left: 7%;
+    }
+}

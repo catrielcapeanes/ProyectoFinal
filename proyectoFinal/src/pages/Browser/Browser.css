@@ -1,0 +1,44 @@
+.browser h1{
+  padding-top:80px;
+  padding-left: 4%;
+  margin-bottom: 15px;
+}
+.results{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding-inline: 4%;
+}
+
+.results img{
+  width:200px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.results .card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.results .card p{
+  color: var(--color-white);
+  text-decoration: none;
+  max-width: 200px;
+  align-items: center;
+  text-align: center;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width:800px) {
+  .browser h1{
+    font-size: 20px;
+  }
+  .results img{
+    width:170px;
+  }
+}
